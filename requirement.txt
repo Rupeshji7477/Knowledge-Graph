@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+neo4j
+langchain
+langchain-core
+langchain-google-genai
+langchain-community
+langchain-neo4j
+python-dotenv

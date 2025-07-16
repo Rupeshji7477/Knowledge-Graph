@@ -1,0 +1,18 @@
+[project]
+name = "graph-implementation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+    "flask>=3.1.1",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.69",
+    "langchain-google-genai>=2.1.8",
+    "langchain-neo4j>=0.4.0",
+    "neo4j>=5.28.1",
+    "python-dotenv>=1.1.1",
+    "uvicorn[standard]>=0.35.0",
+]
