@@ -1,4 +1,18 @@
-/rule-kg-project/
+
+# Knowledge Graph with Neo4j Setup
+## Rule Retrieval System using a Knowledge Graph and LLMs
+
+This project implements a complete pipeline to:
+1. Read unstructured business rules from text files.
+2. Use a Large Language Model (via LangChain) to extract structured information.
+3. Populate a Neo4j Knowledge Graph with the extracted data.
+4. Provide two methods for rule retrieval:
+    - A production-ready API for fast, deterministic rule lookup based on a payload.
+    - An interactive script for asking natural language questions about the rules.
+---
+# Project Directory Setup and Introduction
+```
+Knowledge-Graph/
 |
 |-- rules_data/
 |   |-- rule_01.txt
@@ -27,19 +41,7 @@
 |-- query_for_humans.py
 |-- requirements.txt
 |-- README.md
-
-
-# Rule Retrieval System using a Knowledge Graph and LLMs
-
-This project implements a complete pipeline to:
-1. Read unstructured business rules from text files.
-2. Use a Large Language Model (via LangChain) to extract structured information.
-3. Populate a Neo4j Knowledge Graph with the extracted data.
-4. Provide two methods for rule retrieval:
-    - A production-ready API for fast, deterministic rule lookup based on a payload.
-    - An interactive script for asking natural language questions about the rules.
-
----
+```
 
 ### **Setup Instructions**
 
@@ -50,6 +52,6 @@ This project implements a complete pipeline to:
 
 **2. Clone and Install Dependencies:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Rupeshji7477/Knowledge-Graph.git
    cd rule-kg-project
    pip install -r requirements.txt
